@@ -17,7 +17,7 @@ DBPASS=password
 DBNAME=node
 DBPORT=3008
 PORT=3300
-
+```
 
 ##1. docker-compose.yml
 Este archivo define la configuración para Docker Compose. Se utiliza para orquestar los contenedores de Docker necesarios para ejecutar tu aplicación. Aquí hay una explicación más detallada:
