@@ -115,6 +115,12 @@ postEstudiante: Maneja la solicitud POST para agregar un estudiante.
 
 postProfesor: Maneja la solicitud POST para agregar un profesor.
 
+delEstudiantes: Maneja la solicitud DELETE para eliminar un estudiante.
+
+delProfesor: Maneja la solicitud DELETE para eliminar un profesor.
+
+Estas funciones se vinculan a las rutas correspondientes (/estudiantes y /profesor) utilizando Express. Cada ruta tiene funciones asociadas para manejar diferentes tipos de solicitudes HTTP.
+
 
 ## Llamada a API
 
@@ -125,8 +131,4 @@ GET http://localhost:3300/profesor
 
 
 
-delEstudiantes: Maneja la solicitud DELETE para eliminar un estudiante.
 
-delProfesor: Maneja la solicitud DELETE para eliminar un profesor.
-
-Estas funciones se vinculan a las rutas correspondientes (/estudiantes y /profesor) utilizando Express. Cada ruta tiene funciones asociadas para manejar diferentes tipos de solicitudes HTTP.
