@@ -19,7 +19,7 @@ DBPORT=3008
 PORT=3300
 ```
 
-##1. docker-compose.yml
+## 1. docker-compose.yml
 Este archivo define la configuración para Docker Compose. Se utiliza para orquestar los contenedores de Docker necesarios para ejecutar tu aplicación. Aquí hay una explicación más detallada:
 
 version: '3': Indica la versión de Docker Compose que se utilizará.
@@ -32,7 +32,7 @@ ports: Mapea el puerto del host al puerto del contenedor MySQL.
 volumes: Crea un volumen para persistir los datos de MySQL.
 
 
-## 2. .env
+## 2 .env
 Este archivo contiene variables de entorno para la configuración de tu aplicación y base de datos. Aquí hay una explicación de cada variable:
 
 DBHOST: Host de la base de datos (en este caso, localhost).
@@ -52,7 +52,7 @@ app.use(require('./routes/app'));: Utiliza las rutas definidas en el archivo app
 app.listen(process.env.PORT || 3300, () => { ... });: Inicia el servidor en el puerto especificado en las variables de entorno o en el puerto 3300 por defecto.
 
 
-##4. config.db.js
+## 4. config.db.js
 Este archivo configura la conexión a la base de datos MySQL. Aquí está la explicación:
 
 const dotenv = require("dotenv");: Importa la biblioteca dotenv para cargar variables de entorno desde el archivo .env.
@@ -63,7 +63,7 @@ try { ... } catch (error) { ... }: Intenta establecer una conexión a la base de
 module.exports = {connection};: Exporta la conexión para que pueda ser utilizada en otros archivos.
 
 
-##5. routes/app.js
+## 5. routes/app.js
 Este archivo define las rutas de tu API. Aquí hay una explicación de las funciones y rutas específicas:
 
 getEstudiantes: Maneja la solicitud GET para obtener todos los estudiantes.
