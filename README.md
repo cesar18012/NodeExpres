@@ -115,6 +115,16 @@ postEstudiante: Maneja la solicitud POST para agregar un estudiante.
 
 postProfesor: Maneja la solicitud POST para agregar un profesor.
 
+
+## Llamada a API
+
+GET http://localhost:3300/profesor
+
+
+![image](https://github.com/cesar18012/NodeExpres/assets/122441597/48120dbb-592d-4e6d-a6cf-27496da50825)
+
+
+
 delEstudiantes: Maneja la solicitud DELETE para eliminar un estudiante.
 
 delProfesor: Maneja la solicitud DELETE para eliminar un profesor.
