@@ -32,7 +32,7 @@ ports: Mapea el puerto del host al puerto del contenedor MySQL.
 volumes: Crea un volumen para persistir los datos de MySQL.
 
 
-##2. .env
+## 2. .env
 Este archivo contiene variables de entorno para la configuración de tu aplicación y base de datos. Aquí hay una explicación de cada variable:
 
 DBHOST: Host de la base de datos (en este caso, localhost).
@@ -43,7 +43,7 @@ DBPORT: Puerto de la base de datos.
 PORT: Puerto en el que la aplicación se ejecutará.
 
 
-##3. index.js
+## 3. index.js
 Este archivo es el punto de entrada de tu aplicación. Aquí está la explicación:
 
 const express = require("express");: Importa el framework Express.
